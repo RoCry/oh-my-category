@@ -15,12 +15,12 @@
 		58A44B07152FF4D10005616E /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B06152FF4D10005616E /* RCAppDelegate.m */; };
 		58A44B0A152FF4D10005616E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A44B08152FF4D10005616E /* MainStoryboard.storyboard */; };
 		58A44B0D152FF4D10005616E /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B0C152FF4D10005616E /* RCViewController.m */; };
-		58A44B15152FF53D0005616E /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B13152FF53D0005616E /* UIView+Shake.m */; };
-		58A44B1E152FF55E0005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B18152FF55E0005616E /* ChineseCalendarDB.cpp */; };
-		58A44B1F152FF55E0005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B1A152FF55E0005616E /* ChineseDate.cpp */; };
-		58A44B20152FF55E0005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B1C152FF55E0005616E /* SolarDate.cpp */; };
-		58A44B24152FF66F0005616E /* NSDate+ChineseBirth.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B22152FF66F0005616E /* NSDate+ChineseBirth.mm */; };
-		58A44B27152FF6B30005616E /* NSDate+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B25152FF6B30005616E /* NSDate+RoCry.m */; };
+		58A44B37152FFB2A0005616E /* NSDate+ChineseBirth.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */; };
+		58A44B38152FFB2A0005616E /* NSDate+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B32152FFB2A0005616E /* NSDate+RoCry.m */; };
+		58A44B39152FFB2A0005616E /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B35152FFB2A0005616E /* UIView+Shake.m */; };
+		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
+		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
+		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,18 +37,18 @@
 		58A44B09152FF4D10005616E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		58A44B0B152FF4D10005616E /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
 		58A44B0C152FF4D10005616E /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
-		58A44B13152FF53D0005616E /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
-		58A44B14152FF53D0005616E /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
-		58A44B18152FF55E0005616E /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
-		58A44B19152FF55E0005616E /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
-		58A44B1A152FF55E0005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
-		58A44B1B152FF55E0005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
-		58A44B1C152FF55E0005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
-		58A44B1D152FF55E0005616E /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
-		58A44B22152FF66F0005616E /* NSDate+ChineseBirth.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSDate+ChineseBirth.mm"; sourceTree = "<group>"; };
-		58A44B23152FF66F0005616E /* NSDate+ChineseBirth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ChineseBirth.h"; sourceTree = "<group>"; };
-		58A44B25152FF6B30005616E /* NSDate+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RoCry.m"; sourceTree = "<group>"; };
-		58A44B26152FF6B30005616E /* NSDate+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RoCry.h"; sourceTree = "<group>"; };
+		58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSDate+ChineseBirth.mm"; path = "Category/NSDate+ChineseBirth.mm"; sourceTree = "<group>"; };
+		58A44B32152FFB2A0005616E /* NSDate+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RoCry.m"; path = "Category/NSDate+RoCry.m"; sourceTree = "<group>"; };
+		58A44B33152FFB2A0005616E /* NSDate+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+RoCry.h"; path = "Category/NSDate+RoCry.h"; sourceTree = "<group>"; };
+		58A44B34152FFB2A0005616E /* NSDate+ChineseBirth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+ChineseBirth.h"; path = "Category/NSDate+ChineseBirth.h"; sourceTree = "<group>"; };
+		58A44B35152FFB2A0005616E /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Shake.m"; path = "Category/UIView+Shake.m"; sourceTree = "<group>"; };
+		58A44B36152FFB2A0005616E /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Shake.h"; path = "Category/UIView+Shake.h"; sourceTree = "<group>"; };
+		58A44B3A152FFB370005616E /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseCalendarDB.h; path = RelatedClasses/solar_chinese_calendar/ChineseCalendarDB.h; sourceTree = SOURCE_ROOT; };
+		58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseCalendarDB.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseCalendarDB.cpp; sourceTree = SOURCE_ROOT; };
+		58A44B3C152FFB370005616E /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolarDate.h; path = RelatedClasses/solar_chinese_calendar/SolarDate.h; sourceTree = SOURCE_ROOT; };
+		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
+		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
+		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +122,12 @@
 		58A44B16152FF5410005616E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				58A44B13152FF53D0005616E /* UIView+Shake.m */,
-				58A44B14152FF53D0005616E /* UIView+Shake.h */,
-				58A44B25152FF6B30005616E /* NSDate+RoCry.m */,
-				58A44B26152FF6B30005616E /* NSDate+RoCry.h */,
-				58A44B23152FF66F0005616E /* NSDate+ChineseBirth.h */,
-				58A44B22152FF66F0005616E /* NSDate+ChineseBirth.mm */,
+				58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */,
+				58A44B32152FFB2A0005616E /* NSDate+RoCry.m */,
+				58A44B33152FFB2A0005616E /* NSDate+RoCry.h */,
+				58A44B34152FFB2A0005616E /* NSDate+ChineseBirth.h */,
+				58A44B35152FFB2A0005616E /* UIView+Shake.m */,
+				58A44B36152FFB2A0005616E /* UIView+Shake.h */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -135,12 +135,12 @@
 		58A44B17152FF55E0005616E /* solar_chinese_calendar */ = {
 			isa = PBXGroup;
 			children = (
-				58A44B18152FF55E0005616E /* ChineseCalendarDB.cpp */,
-				58A44B19152FF55E0005616E /* ChineseCalendarDB.h */,
-				58A44B1A152FF55E0005616E /* ChineseDate.cpp */,
-				58A44B1B152FF55E0005616E /* ChineseDate.h */,
-				58A44B1C152FF55E0005616E /* SolarDate.cpp */,
-				58A44B1D152FF55E0005616E /* SolarDate.h */,
+				58A44B3A152FFB370005616E /* ChineseCalendarDB.h */,
+				58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */,
+				58A44B3C152FFB370005616E /* SolarDate.h */,
+				58A44B3D152FFB370005616E /* ChineseDate.h */,
+				58A44B3E152FFB370005616E /* SolarDate.cpp */,
+				58A44B3F152FFB370005616E /* ChineseDate.cpp */,
 			);
 			path = solar_chinese_calendar;
 			sourceTree = "<group>";
@@ -220,12 +220,12 @@
 				58A44B03152FF4D10005616E /* main.m in Sources */,
 				58A44B07152FF4D10005616E /* RCAppDelegate.m in Sources */,
 				58A44B0D152FF4D10005616E /* RCViewController.m in Sources */,
-				58A44B15152FF53D0005616E /* UIView+Shake.m in Sources */,
-				58A44B1E152FF55E0005616E /* ChineseCalendarDB.cpp in Sources */,
-				58A44B1F152FF55E0005616E /* ChineseDate.cpp in Sources */,
-				58A44B20152FF55E0005616E /* SolarDate.cpp in Sources */,
-				58A44B24152FF66F0005616E /* NSDate+ChineseBirth.mm in Sources */,
-				58A44B27152FF6B30005616E /* NSDate+RoCry.m in Sources */,
+				58A44B37152FFB2A0005616E /* NSDate+ChineseBirth.mm in Sources */,
+				58A44B38152FFB2A0005616E /* NSDate+RoCry.m in Sources */,
+				58A44B39152FFB2A0005616E /* UIView+Shake.m in Sources */,
+				58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */,
+				58A44B41152FFB370005616E /* SolarDate.cpp in Sources */,
+				58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +337,7 @@
 				58A44B12152FF4D10005616E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
