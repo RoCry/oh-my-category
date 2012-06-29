@@ -21,6 +21,7 @@
 		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
 		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
 		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
+		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
 		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
 		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
+		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
+		D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RoCry.m"; path = "Category/NSString+RoCry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		58A44B16152FF5410005616E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */,
+				D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */,
 				58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */,
 				58A44B32152FFB2A0005616E /* NSDate+RoCry.m */,
 				58A44B33152FFB2A0005616E /* NSDate+RoCry.h */,
@@ -226,6 +231,7 @@
 				58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */,
 				58A44B41152FFB370005616E /* SolarDate.cpp in Sources */,
 				58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */,
+				D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
