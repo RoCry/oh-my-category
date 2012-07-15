@@ -21,6 +21,8 @@
 		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
 		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
 		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
+		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
+		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,12 @@
 		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
 		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
 		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
+		D10FB75315AD681100AEEBB1 /* RCFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFileUtil.h; sourceTree = "<group>"; };
+		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
+		D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCoreDataUtil.h; sourceTree = "<group>"; };
+		D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCoreDataUtil.m; sourceTree = "<group>"; };
+		D13F76D015B25ACB008595EC /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Macros/Constants.h; sourceTree = "<group>"; };
+		D13F76D115B25EBD008595EC /* MacrosFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacrosFunc.h; path = Macros/MacrosFunc.h; sourceTree = "<group>"; };
 		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
 		D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RoCry.m"; path = "Category/NSString+RoCry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +79,8 @@
 		58A44AE7152FF4D10005616E = {
 			isa = PBXGroup;
 			children = (
+				D13F76D215B25EC1008595EC /* Macros */,
+				D10FB75115AD67F700AEEBB1 /* Utils */,
 				58A44B21152FF5610005616E /* OtherClassRelated */,
 				58A44B16152FF5410005616E /* Category */,
 				58A44AFC152FF4D10005616E /* Demo */,
@@ -158,6 +168,26 @@
 			name = OtherClassRelated;
 			sourceTree = "<group>";
 		};
+		D10FB75115AD67F700AEEBB1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D10FB75315AD681100AEEBB1 /* RCFileUtil.h */,
+				D10FB75415AD681100AEEBB1 /* RCFileUtil.m */,
+				D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */,
+				D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D13F76D215B25EC1008595EC /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D13F76D115B25EBD008595EC /* MacrosFunc.h */,
+				D13F76D015B25ACB008595EC /* Constants.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +262,8 @@
 				58A44B41152FFB370005616E /* SolarDate.cpp in Sources */,
 				58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */,
 				D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */,
+				D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */,
+				D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
