@@ -21,6 +21,7 @@
 		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
 		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
 		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
+		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
@@ -52,6 +53,8 @@
 		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
 		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
 		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
+		D10B207E15CB727A0033A2DA /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = Macros/SynthesizeSingleton.h; sourceTree = "<group>"; };
+		D10B208015CB789D0033A2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D10FB75315AD681100AEEBB1 /* RCFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFileUtil.h; sourceTree = "<group>"; };
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
 		D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCoreDataUtil.h; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */,
 				58A44AF7152FF4D10005616E /* UIKit.framework in Frameworks */,
 				58A44AF9152FF4D10005616E /* Foundation.framework in Frameworks */,
 				58A44AFB152FF4D10005616E /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +104,7 @@
 		58A44AF5152FF4D10005616E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D10B208015CB789D0033A2DA /* CoreData.framework */,
 				58A44AF6152FF4D10005616E /* UIKit.framework */,
 				58A44AF8152FF4D10005616E /* Foundation.framework */,
 				58A44AFA152FF4D10005616E /* CoreGraphics.framework */,
@@ -137,12 +142,12 @@
 			children = (
 				D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */,
 				D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */,
-				58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */,
-				58A44B32152FFB2A0005616E /* NSDate+RoCry.m */,
 				58A44B33152FFB2A0005616E /* NSDate+RoCry.h */,
+				58A44B32152FFB2A0005616E /* NSDate+RoCry.m */,
 				58A44B34152FFB2A0005616E /* NSDate+ChineseBirth.h */,
-				58A44B35152FFB2A0005616E /* UIView+Shake.m */,
+				58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */,
 				58A44B36152FFB2A0005616E /* UIView+Shake.h */,
+				58A44B35152FFB2A0005616E /* UIView+Shake.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			children = (
 				D13F76D115B25EBD008595EC /* MacrosFunc.h */,
 				D13F76D015B25ACB008595EC /* Constants.h */,
+				D10B207E15CB727A0033A2DA /* SynthesizeSingleton.h */,
 			);
 			name = Macros;
 			sourceTree = "<group>";
