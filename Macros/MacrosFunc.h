@@ -44,3 +44,10 @@ FUNCTION_REQUIRED_IOS_VERSION_ELSE_IF_LOWER
  // other code here
 FUNCTION_REQUIRED_IOS_VERSION_ELSE_IF_LOWER_END
 */
+
+
+#define RUN_AFTER(delay_time) \
+dispatch_time_t startTime = dispatch_time(DISPATCH_TIME_NOW, delay_time * NSEC_PER_SEC); \
+dispatch_after(startTime, dispatch_get_main_queue(), ^(void){
+// the delay running code
+#define RUN_AFTER_END });
