@@ -10,6 +10,7 @@
 #import "NSDate+RoCry.h"
 #import "NSDate+ChineseBirth.h"
 #import "UIView+Shake.h"
+#import "RCUserGuideViewController.h"
 
 @interface RCViewController ()
 
@@ -47,4 +48,12 @@
 - (IBAction)testShake:(id)sender {
     [self.view shake];
 }
+
+- (IBAction)showUserGuide:(id)sender {
+    UIViewController *nextVC = [[RCUserGuideViewController alloc] init];
+    [self presentViewController:nextVC animated:YES completion:^{
+        
+    }];
+}
+
 @end

@@ -12,5 +12,6 @@
 
 - (IBAction)testChineseBirth:(id)sender;
 - (IBAction)testShake:(id)sender;
+- (IBAction)showUserGuide:(id)sender;
 
 @end
