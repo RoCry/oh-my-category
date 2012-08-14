@@ -7,16 +7,6 @@
 //
 
 // from https://github.com/tangqiaoboy/
-#ifdef DEBUG
-#define debugLog(...) NSLog(__VA_ARGS__)
-#define debugMethod() NSLog(@"%s", __func__)
-#else
-#define debugLog(...)
-#define debugMethod()
-#endif
-
-#define EMPTY_STRING        @""
-
 #define STR(key)            NSLocalizedString(key, nil)
 
 #define PATH_OF_APP_HOME    NSHomeDirectory()
@@ -26,8 +16,11 @@
 #define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 // from end
 
-
-
+#ifdef DEBUG
+#define DLog(fmt,...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__)
+#else
+#define DLog(...)
+#endif
 
 #define FUNCTION_REQUIRED_IOS_VERSION_BEGIN(version) \
 { \
