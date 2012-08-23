@@ -39,6 +39,35 @@
     return [[NSString alloc] initWithData:mutableData encoding:NSASCIIStringEncoding];
 }
 
+- (NSString *)stringFromHexString {  // eg. hexString = @"8c376b4c"
+    
+    char *myBuffer = (char*)malloc((int)[self length] / 2 + 1);
+    bzero(myBuffer, [self length] / 2 + 1);
+    for(int i = 0; i < [self length] - 1; i += 2) {
+        unsigned int anInt;
+        NSString *hexCharStr = [self substringWithRange:NSMakeRange(i, 2)];
+        NSScanner *scanner = [[NSScanner alloc] initWithString:hexCharStr];
+        [scanner scanHexInt:&anInt];
+        myBuffer[i / 2] = (char)anInt;
+    }
+    NSString *unicodeString = [NSString stringWithCString:myBuffer encoding:NSUnicodeStringEncoding];
+//    printf("%s\n", myBuffer);
+    free(myBuffer);
+    
+    NSString *temp1 = [unicodeString stringByReplacingOccurrencesOfString:@"\\u"withString:@"\\U"];
+    NSString *temp2 = [temp1 stringByReplacingOccurrencesOfString:@"\""withString:@"\\\""];
+    NSString *temp3 = [[@"\""stringByAppendingString:temp2] stringByAppendingString:@"\""];
+    NSData *tempData = [temp3 dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *temp4 = [NSPropertyListSerialization propertyListFromData:tempData
+                                                       mutabilityOption:NSPropertyListImmutable
+                                                                 format:NULL
+                                                       errorDescription:NULL];
+    NSString *string = [temp4 stringByReplacingOccurrencesOfString:@"\\r\\n"withString:@"\n"];
+    
+//    NSLog(@"-------string----%@", string); //输出 谷歌
+    return string;
+}
+
 - (BOOL)isEmpty {
 	NSCharacterSet *charSet = [NSCharacterSet whitespaceAndNewlineCharacterSet];
 	NSString *trimmed = [self stringByTrimmingCharactersInSet:charSet];

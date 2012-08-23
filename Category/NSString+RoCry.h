@@ -13,6 +13,8 @@
 // from AFNetworking
 - (NSString *)base64EncodedStringFromString;
 
+- (NSString *)stringFromHexString;
+
 - (BOOL)isEmpty;
 - (NSString *)escapeHTML;
 @end
