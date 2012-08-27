@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *roundImageView;
 
 - (IBAction)testChineseBirth:(id)sender;
 - (IBAction)testShake:(id)sender;

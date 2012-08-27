@@ -17,17 +17,19 @@
 @end
 
 @implementation RCViewController
+@synthesize roundImageView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.roundImageView.image = [UIImage imageNamed:@"heartocat"];
 }
 
 - (void)viewDidUnload
 {
+    [self setRoundImageView:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
