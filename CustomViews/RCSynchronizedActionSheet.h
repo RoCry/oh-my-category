@@ -10,11 +10,17 @@
 
 @interface RCSynchronizedActionSheet : NSObject<UIActionSheetDelegate>
 
+@property (nonatomic, assign) NSString *title;
+@property (nonatomic, assign) NSString *cancelButtonTitle;
+@property (nonatomic, strong) NSArray *otherButtonTitles;
+@property (nonatomic, strong) void (^completion)(NSInteger);
+
 - (id)initWithTitle:(NSString *)title
   cancelButtonTitle:(NSString *)cancelButtonTitle
 destructiveButtonTitle:(NSString *)destructiveButtonTitle
-  otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
+  otherButtonTitles:(NSArray *)otherButtonTitles
+         completion:(void (^)(NSInteger buttonIndex))completion;
 
-- (NSInteger)showInView:(UIView *)view;
+- (void)showInView:(UIView *)view;
 
 @end

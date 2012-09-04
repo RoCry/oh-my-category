@@ -10,13 +10,14 @@
 
 @implementation RCSynchronizedActionSheet{
     UIActionSheet *_actionSheet;
-    NSInteger _selectedIndex;
 }
 
 - (id)initWithTitle:(NSString *)title
   cancelButtonTitle:(NSString *)cancelButtonTitle
 destructiveButtonTitle:(NSString *)destructiveButtonTitle
-  otherButtonTitles:(NSString *)firstArg, ... {
+  otherButtonTitles:(NSArray *)otherButtonTitles
+         completion:(void (^)(NSInteger buttonIndex))completion
+{
     self = [super init];
     if (self) {
         _actionSheet = [[UIActionSheet alloc] init];
@@ -30,34 +31,31 @@ destructiveButtonTitle:(NSString *)destructiveButtonTitle
             _actionSheet.destructiveButtonIndex = 0;
             numOfButtons++;
         }
-        
-        va_list args;
-        va_start(args, firstArg);
-        for (NSString *arg = firstArg; arg != nil; arg = va_arg(args, NSString*)){
-            [_actionSheet addButtonWithTitle:arg];
+    
+        for (NSString *otherButtonTitle in otherButtonTitles) {
+            [_actionSheet addButtonWithTitle:otherButtonTitle];
             numOfButtons++;
         }
-        va_end(args);
     
         if (cancelButtonTitle) {
             [_actionSheet addButtonWithTitle:cancelButtonTitle];
             numOfButtons++;
             _actionSheet.cancelButtonIndex = numOfButtons - 1;
         };
+        
+        self.completion = completion;
     }
     return self;
 }
 
-- (NSInteger)showInView:(UIView *)view {
+- (void)showInView:(UIView *)view {
     [_actionSheet showInView:view];
     CFRunLoopRun();
-    return _selectedIndex;
 }
 
 #pragma mark - UIActionSheetDelegate
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    _selectedIndex = buttonIndex;
-    _actionSheet = nil;
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    self.completion(buttonIndex);
     CFRunLoopStop(CFRunLoopGetCurrent());
 }
 

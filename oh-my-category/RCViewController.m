@@ -71,9 +71,12 @@
     RCSynchronizedActionSheet *sheet = [[RCSynchronizedActionSheet alloc]initWithTitle:@"title"
                                                                      cancelButtonTitle:@"cancel"
                                                                 destructiveButtonTitle:@"destructive"
-                                                                     otherButtonTitles:@"other1",@"other2", nil];
+                                                                     otherButtonTitles:@[ @"other1", @"other2" ]
+                                                                            completion:^(NSInteger buttonIndex) {
+                                                                                NSLog(@"sheet index = %d ",buttonIndex);
+                                                                            }];
+    [sheet showInView:self.view];
     
-    NSLog(@"sheet index = %d ",[sheet showInView:self.view]);
 }
 
 - (IBAction)testSyncAlert:(id)sender {
