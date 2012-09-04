@@ -25,6 +25,7 @@
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
+		D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17D836D15EB0F8B00ECECE8 /* RCImageView.m */; };
 		D17D837615EB134D00ECECE8 /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837315EB134D00ECECE8 /* button_back@2x.png */; };
 		D17D837715EB134D00ECECE8 /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837415EB134D00ECECE8 /* button_blue@2x.png */; };
@@ -81,6 +82,8 @@
 		D13F76D115B25EBD008595EC /* MacrosFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacrosFunc.h; path = Macros/MacrosFunc.h; sourceTree = "<group>"; };
 		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
 		D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RoCry.m"; path = "Category/NSString+RoCry.m"; sourceTree = "<group>"; };
+		D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		D16BA34B15F59B8B0062D74F /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		D17D836C15EB0F8B00ECECE8 /* RCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImageView.h; sourceTree = "<group>"; };
 		D17D836D15EB0F8B00ECECE8 /* RCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImageView.m; sourceTree = "<group>"; };
 		D17D837315EB134D00ECECE8 /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		58A44AE7152FF4D10005616E = {
 			isa = PBXGroup;
 			children = (
+				D16BA34615F599E80062D74F /* Others */,
 				D17D837215EB134D00ECECE8 /* RelatedResources */,
 				D17D836A15EB0F6800ECECE8 /* CustomViews */,
 				D1FA78FC15D890B10032F8F4 /* SomeBaseViewControllers */,
@@ -235,6 +239,15 @@
 				D10B207E15CB727A0033A2DA /* SynthesizeSingleton.h */,
 			);
 			name = Macros;
+			sourceTree = "<group>";
+		};
+		D16BA34615F599E80062D74F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D16BA34B15F59B8B0062D74F /* UncaughtExceptionHandler.h */,
+				D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		D17D836A15EB0F6800ECECE8 /* CustomViews */ = {
@@ -386,6 +399,7 @@
 				D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */,
 				D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */,
 				D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */,
+				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

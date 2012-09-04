@@ -11,6 +11,7 @@
 #import "NSDate+ChineseBirth.h"
 #import "UIView+Shake.h"
 #import "RCUserGuideViewController.h"
+#import "UncaughtExceptionHandler.h"
 
 @interface RCViewController ()
 
@@ -24,6 +25,8 @@
     [super viewDidLoad];
 	
     self.roundImageView.image = [UIImage imageNamed:@"heartocat"];
+    
+    InstallUncaughtExceptionHandler();
 }
 
 - (void)viewDidUnload
@@ -56,6 +59,10 @@
     [self presentViewController:nextVC animated:YES completion:^{
         
     }];
+}
+
+- (IBAction)crashBtnPressed:(id)sender {
+    [self performSelector:@selector(asdfghjkl)];
 }
 
 @end

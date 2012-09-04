@@ -18,10 +18,10 @@
     [[UIColor whiteColor] set];
     UIRectFill(bounds);
     
-    [[UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:5.0] addClip];
+    [[UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:CORNER_RADIUS] addClip];
     
     [self.image drawInRect:bounds];
-    UIImage *shadow_image = [[UIImage imageNamed:@"shadow_mask"]stretchableImageWithLeftCapWidth:5 topCapHeight:5];
+    UIImage *shadow_image = [[UIImage imageNamed:@"shadow_mask"]stretchableImageWithLeftCapWidth:CORNER_RADIUS topCapHeight:CORNER_RADIUS];
     
     [shadow_image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 }
