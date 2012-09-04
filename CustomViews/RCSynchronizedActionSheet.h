@@ -3,7 +3,7 @@
 //  oh-my-category
 //
 //  Created by Tian Xia on 9/4/12.
-//  Copyright (c) 2012 7782. All rights reserved.
+//  Copyright (c) 2012 FeN. All rights unreserved.
 //
 
 #import <Foundation/Foundation.h>

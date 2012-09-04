@@ -3,7 +3,7 @@
 //  oh-my-category
 //
 //  Created by  on 2012/4/7.
-//  Copyright (c) 2012 7782. All rights reserved.
+//  Copyright (c) 2012 FeN. All rights unreserved.
 //
 
 #import "RCAppDelegate.h"

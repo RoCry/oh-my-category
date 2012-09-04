@@ -3,7 +3,7 @@
 //  GithubMobile
 //
 //  Created by Tian Xia on 6/28/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 FeN. All rights unreserved.
 //
 
 #import "NSString+RoCry.h"
