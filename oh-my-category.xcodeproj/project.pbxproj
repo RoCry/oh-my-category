@@ -24,6 +24,8 @@
 		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
+		D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */; };
+		D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
 		D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17D836D15EB0F8B00ECECE8 /* RCImageView.m */; };
@@ -78,6 +80,10 @@
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
 		D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCoreDataUtil.h; sourceTree = "<group>"; };
 		D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCoreDataUtil.m; sourceTree = "<group>"; };
+		D13EBD3215F5B1A20074C698 /* RCSynchronizedActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedActionSheet.h; sourceTree = "<group>"; };
+		D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSynchronizedActionSheet.m; sourceTree = "<group>"; };
+		D13EBD3615F5C06C0074C698 /* RCSynchronizedAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedAlertView.h; sourceTree = "<group>"; };
+		D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSynchronizedAlertView.m; sourceTree = "<group>"; };
 		D13F76D015B25ACB008595EC /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Macros/Constants.h; sourceTree = "<group>"; };
 		D13F76D115B25EBD008595EC /* MacrosFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacrosFunc.h; path = Macros/MacrosFunc.h; sourceTree = "<group>"; };
 		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
@@ -255,6 +261,10 @@
 			children = (
 				D17D836C15EB0F8B00ECECE8 /* RCImageView.h */,
 				D17D836D15EB0F8B00ECECE8 /* RCImageView.m */,
+				D13EBD3215F5B1A20074C698 /* RCSynchronizedActionSheet.h */,
+				D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */,
+				D13EBD3615F5C06C0074C698 /* RCSynchronizedAlertView.h */,
+				D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -400,6 +410,8 @@
 				D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */,
 				D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */,
 				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
+				D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */,
+				D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
