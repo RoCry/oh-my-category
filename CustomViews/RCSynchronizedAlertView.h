@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+DEPRECATED_ATTRIBUTE // see https://github.com/zhangxigithub/BlockUI
 @interface RCSynchronizedAlertView : NSObject
 
 - (id)initWithTitle:(NSString *)title

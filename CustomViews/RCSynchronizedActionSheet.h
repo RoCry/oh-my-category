@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface RCSynchronizedActionSheet : NSObject<UIActionSheetDelegate>
+DEPRECATED_ATTRIBUTE // see https://github.com/zhangxigithub/BlockUI
+@interface RCSynchronizedActionSheet : NSObject<UIActionSheetDelegate> 
 
 - (id)initWithTitle:(NSString *)title
   cancelButtonTitle:(NSString *)cancelButtonTitle

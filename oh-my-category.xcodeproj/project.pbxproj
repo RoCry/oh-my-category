@@ -24,6 +24,8 @@
 		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
+		D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D1398DE91631343E003F6A5E /* NSURL+RoCry.m */; };
+		D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */; };
 		D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */; };
 		D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
@@ -80,6 +82,10 @@
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
 		D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCoreDataUtil.h; sourceTree = "<group>"; };
 		D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCoreDataUtil.m; sourceTree = "<group>"; };
+		D1398DE81631343E003F6A5E /* NSURL+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+RoCry.h"; path = "Category/NSURL+RoCry.h"; sourceTree = "<group>"; };
+		D1398DE91631343E003F6A5E /* NSURL+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+RoCry.m"; path = "Category/NSURL+RoCry.m"; sourceTree = "<group>"; };
+		D13A0DD01614365600FA0CAC /* UIViewController+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Extensions.h"; path = "Category/UIViewController+Extensions.h"; sourceTree = "<group>"; };
+		D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Extensions.m"; path = "Category/UIViewController+Extensions.m"; sourceTree = "<group>"; };
 		D13EBD3215F5B1A20074C698 /* RCSynchronizedActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedActionSheet.h; sourceTree = "<group>"; };
 		D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSynchronizedActionSheet.m; sourceTree = "<group>"; };
 		D13EBD3615F5C06C0074C698 /* RCSynchronizedAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedAlertView.h; sourceTree = "<group>"; };
@@ -193,6 +199,8 @@
 		58A44B16152FF5410005616E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D1398DE81631343E003F6A5E /* NSURL+RoCry.h */,
+				D1398DE91631343E003F6A5E /* NSURL+RoCry.m */,
 				D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */,
 				D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */,
 				58A44B33152FFB2A0005616E /* NSDate+RoCry.h */,
@@ -201,6 +209,8 @@
 				58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */,
 				58A44B36152FFB2A0005616E /* UIView+Shake.h */,
 				58A44B35152FFB2A0005616E /* UIView+Shake.m */,
+				D13A0DD01614365600FA0CAC /* UIViewController+Extensions.h */,
+				D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -412,6 +422,8 @@
 				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
 				D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */,
 				D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */,
+				D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */,
+				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
