@@ -22,6 +22,9 @@
 #define DLog(...)
 #endif
 
+// define a way to quickly grab the app delegate
+#define TheAppDelegate (AppDelegate *)[UIApplication sharedApplication].delegate
+
 #define FUNCTION_REQUIRED_IOS_VERSION_BEGIN(version) \
 { \
 NSString *currentVersion = [[UIDevice currentDevice] systemVersion]; \
