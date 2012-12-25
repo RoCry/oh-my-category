@@ -12,8 +12,6 @@
 #import "UIView+Shake.h"
 #import "RCUserGuideViewController.h"
 #import "UncaughtExceptionHandler.h"
-#import "RCSynchronizedActionSheet.h"
-#import "RCSynchronizedAlertView.h"
 
 @interface RCViewController ()
 
@@ -58,30 +56,11 @@
 
 - (IBAction)showUserGuide:(id)sender {
     UIViewController *nextVC = [[RCUserGuideViewController alloc] init];
-    [self presentViewController:nextVC animated:YES completion:^{
-        
-    }];
+    [self presentViewController:nextVC animated:YES completion:nil];
 }
 
 - (IBAction)crashBtnPressed:(id)sender {
     [self performSelector:@selector(asdfghjkl)];
-}
-
-- (IBAction)testSyncActionSheet:(id)sender {
-    RCSynchronizedActionSheet *sheet = [[RCSynchronizedActionSheet alloc]initWithTitle:@"title"
-                                                                     cancelButtonTitle:@"cancel"
-                                                                destructiveButtonTitle:@"destructive"
-                                                                     otherButtonTitles:@"other1",@"other2", nil];
-    
-    NSLog(@"sheet index = %d ",[sheet showInView:self.view]);
-}
-
-- (IBAction)testSyncAlert:(id)sender {
-    RCSynchronizedAlertView *alert = [[RCSynchronizedAlertView alloc] initWithTitle:@"title"
-                                                                            message:@"message"
-                                                                  cancelButtonTitle:@"cancel"
-                                                                  otherButtonTitles:@"other1",@"other2", nil];
-    NSLog(@"alert index = %d ",[alert show]);
 }
 
 @end

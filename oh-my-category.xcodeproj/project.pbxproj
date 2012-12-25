@@ -26,8 +26,6 @@
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
 		D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D1398DE91631343E003F6A5E /* NSURL+RoCry.m */; };
 		D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */; };
-		D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */; };
-		D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
 		D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17D836D15EB0F8B00ECECE8 /* RCImageView.m */; };
@@ -76,7 +74,6 @@
 		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
 		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
 		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
-		D10B207E15CB727A0033A2DA /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = Macros/SynthesizeSingleton.h; sourceTree = "<group>"; };
 		D10B208015CB789D0033A2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D10FB75315AD681100AEEBB1 /* RCFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFileUtil.h; sourceTree = "<group>"; };
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
@@ -86,10 +83,6 @@
 		D1398DE91631343E003F6A5E /* NSURL+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+RoCry.m"; path = "Category/NSURL+RoCry.m"; sourceTree = "<group>"; };
 		D13A0DD01614365600FA0CAC /* UIViewController+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Extensions.h"; path = "Category/UIViewController+Extensions.h"; sourceTree = "<group>"; };
 		D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Extensions.m"; path = "Category/UIViewController+Extensions.m"; sourceTree = "<group>"; };
-		D13EBD3215F5B1A20074C698 /* RCSynchronizedActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedActionSheet.h; sourceTree = "<group>"; };
-		D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSynchronizedActionSheet.m; sourceTree = "<group>"; };
-		D13EBD3615F5C06C0074C698 /* RCSynchronizedAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSynchronizedAlertView.h; sourceTree = "<group>"; };
-		D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSynchronizedAlertView.m; sourceTree = "<group>"; };
 		D13F76D015B25ACB008595EC /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Macros/Constants.h; sourceTree = "<group>"; };
 		D13F76D115B25EBD008595EC /* MacrosFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacrosFunc.h; path = Macros/MacrosFunc.h; sourceTree = "<group>"; };
 		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
@@ -252,7 +245,6 @@
 			children = (
 				D13F76D115B25EBD008595EC /* MacrosFunc.h */,
 				D13F76D015B25ACB008595EC /* Constants.h */,
-				D10B207E15CB727A0033A2DA /* SynthesizeSingleton.h */,
 			);
 			name = Macros;
 			sourceTree = "<group>";
@@ -271,10 +263,6 @@
 			children = (
 				D17D836C15EB0F8B00ECECE8 /* RCImageView.h */,
 				D17D836D15EB0F8B00ECECE8 /* RCImageView.m */,
-				D13EBD3215F5B1A20074C698 /* RCSynchronizedActionSheet.h */,
-				D13EBD3315F5B1A20074C698 /* RCSynchronizedActionSheet.m */,
-				D13EBD3615F5C06C0074C698 /* RCSynchronizedAlertView.h */,
-				D13EBD3715F5C06C0074C698 /* RCSynchronizedAlertView.m */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -420,8 +408,6 @@
 				D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */,
 				D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */,
 				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
-				D13EBD3415F5B1A20074C698 /* RCSynchronizedActionSheet.m in Sources */,
-				D13EBD3815F5C06C0074C698 /* RCSynchronizedAlertView.m in Sources */,
 				D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */,
 				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
 			);
