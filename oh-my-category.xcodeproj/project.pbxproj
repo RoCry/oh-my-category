@@ -36,6 +36,7 @@
 		D17D837D15EB13FC00ECECE8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837B15EB13FC00ECECE8 /* icon.png */; };
 		D17D837E15EB13FC00ECECE8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837C15EB13FC00ECECE8 /* icon@2x.png */; };
 		D17D838015EB157B00ECECE8 /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837F15EB157B00ECECE8 /* heartocat.png */; };
+		D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D1935CE1169AA64400232062 /* UIColor+Hex.m */; };
 		D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */; };
 		D1FA791F15D8921F0032F8F4 /* RCUserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */; };
 		D1FA792015D8921F0032F8F4 /* text_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791715D8921F0032F8F4 /* text_1.png */; };
@@ -98,6 +99,8 @@
 		D17D837B15EB13FC00ECECE8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D17D837C15EB13FC00ECECE8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D17D837F15EB157B00ECECE8 /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
+		D1935CE0169AA64400232062 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Category/UIColor+Hex.h"; sourceTree = "<group>"; };
+		D1935CE1169AA64400232062 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Category/UIColor+Hex.m"; sourceTree = "<group>"; };
 		D1FA791315D8921F0032F8F4 /* RCUserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserGuideViewController.h; sourceTree = "<group>"; };
 		D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserGuideViewController.m; sourceTree = "<group>"; };
 		D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCUserGuideViewController.xib; sourceTree = "<group>"; };
@@ -204,6 +207,8 @@
 				58A44B35152FFB2A0005616E /* UIView+Shake.m */,
 				D13A0DD01614365600FA0CAC /* UIViewController+Extensions.h */,
 				D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */,
+				D1935CE0169AA64400232062 /* UIColor+Hex.h */,
+				D1935CE1169AA64400232062 /* UIColor+Hex.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
 				D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */,
 				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
+				D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
