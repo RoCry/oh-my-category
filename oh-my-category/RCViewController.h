@@ -15,7 +15,5 @@
 - (IBAction)testShake:(id)sender;
 - (IBAction)showUserGuide:(id)sender;
 - (IBAction)crashBtnPressed:(id)sender;
-- (IBAction)testSyncActionSheet:(id)sender;
-- (IBAction)testSyncAlert:(id)sender;
 
 @end
