@@ -21,6 +21,7 @@
 		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
 		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
 		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
+		C489DD81170C355F000D7649 /* NSObject+RCRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */; };
 		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
@@ -75,6 +76,8 @@
 		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
 		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
 		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
+		C489DD7F170C355F000D7649 /* NSObject+RCRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RCRuntimeUtil.h"; sourceTree = "<group>"; };
+		C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RCRuntimeUtil.m"; sourceTree = "<group>"; };
 		D10B208015CB789D0033A2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D10FB75315AD681100AEEBB1 /* RCFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFileUtil.h; sourceTree = "<group>"; };
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				D10FB75415AD681100AEEBB1 /* RCFileUtil.m */,
 				D10FB75615AD68F700AEEBB1 /* RCCoreDataUtil.h */,
 				D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */,
+				C489DD7F170C355F000D7649 /* NSObject+RCRuntimeUtil.h */,
+				C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */,
 				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
 				D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */,
+				C489DD81170C355F000D7649 /* NSObject+RCRuntimeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
