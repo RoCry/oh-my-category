@@ -38,6 +38,8 @@
 		D17D837E15EB13FC00ECECE8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837C15EB13FC00ECECE8 /* icon@2x.png */; };
 		D17D838015EB157B00ECECE8 /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837F15EB157B00ECECE8 /* heartocat.png */; };
 		D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D1935CE1169AA64400232062 /* UIColor+Hex.m */; };
+		D1CCCC0E17660BAF002AF972 /* RCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CCCC0D17660BAF002AF972 /* RCUtil.m */; };
+		D1CCCC151766115F002AF972 /* UIView+ACEToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CCCC141766115F002AF972 /* UIView+ACEToolKit.m */; };
 		D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */; };
 		D1FA791F15D8921F0032F8F4 /* RCUserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */; };
 		D1FA792015D8921F0032F8F4 /* text_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791715D8921F0032F8F4 /* text_1.png */; };
@@ -104,6 +106,10 @@
 		D17D837F15EB157B00ECECE8 /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
 		D1935CE0169AA64400232062 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Category/UIColor+Hex.h"; sourceTree = "<group>"; };
 		D1935CE1169AA64400232062 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Category/UIColor+Hex.m"; sourceTree = "<group>"; };
+		D1CCCC0C17660BAF002AF972 /* RCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUtil.h; sourceTree = "<group>"; };
+		D1CCCC0D17660BAF002AF972 /* RCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUtil.m; sourceTree = "<group>"; };
+		D1CCCC131766115F002AF972 /* UIView+ACEToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ACEToolKit.h"; sourceTree = "<group>"; };
+		D1CCCC141766115F002AF972 /* UIView+ACEToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ACEToolKit.m"; sourceTree = "<group>"; };
 		D1FA791315D8921F0032F8F4 /* RCUserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserGuideViewController.h; sourceTree = "<group>"; };
 		D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserGuideViewController.m; sourceTree = "<group>"; };
 		D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCUserGuideViewController.xib; sourceTree = "<group>"; };
@@ -198,6 +204,7 @@
 		58A44B16152FF5410005616E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D1CCCC121766115E002AF972 /* CategoriesByOthers */,
 				D1398DE81631343E003F6A5E /* NSURL+RoCry.h */,
 				D1398DE91631343E003F6A5E /* NSURL+RoCry.m */,
 				D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */,
@@ -246,6 +253,8 @@
 				D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */,
 				C489DD7F170C355F000D7649 /* NSObject+RCRuntimeUtil.h */,
 				C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */,
+				D1CCCC0C17660BAF002AF972 /* RCUtil.h */,
+				D1CCCC0D17660BAF002AF972 /* RCUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -289,6 +298,16 @@
 				D17D837515EB134D00ECECE8 /* button_red@2x.png */,
 			);
 			path = RelatedResources;
+			sourceTree = "<group>";
+		};
+		D1CCCC121766115E002AF972 /* CategoriesByOthers */ = {
+			isa = PBXGroup;
+			children = (
+				D1CCCC131766115F002AF972 /* UIView+ACEToolKit.h */,
+				D1CCCC141766115F002AF972 /* UIView+ACEToolKit.m */,
+			);
+			name = CategoriesByOthers;
+			path = Category/CategoriesByOthers;
 			sourceTree = "<group>";
 		};
 		D1FA78FC15D890B10032F8F4 /* SomeBaseViewControllers */ = {
@@ -422,6 +441,8 @@
 				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
 				D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */,
 				C489DD81170C355F000D7649 /* NSObject+RCRuntimeUtil.m in Sources */,
+				D1CCCC0E17660BAF002AF972 /* RCUtil.m in Sources */,
+				D1CCCC151766115F002AF972 /* UIView+ACEToolKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
