@@ -353,6 +353,7 @@
 				58A44AEE152FF4D10005616E /* Sources */,
 				58A44AEF152FF4D10005616E /* Frameworks */,
 				58A44AF0152FF4D10005616E /* Resources */,
+				D19F0ABE177554F500AC79F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -416,6 +417,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D19F0ABE177554F500AC79F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#from http://imi.im/122\n#Git 版本数\nVERSION_NUMBER=`git rev-list head | sort | wc -l | awk '{print $1}'`\n#VERSION_HASH=`git rev-list head | head -1`\n\necho $VERSION_NUMBER\n#echo $VERSION_HASH\n\n##加入版本号\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${VERSION_NUMBER}\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58A44AEE152FF4D10005616E /* Sources */ = {

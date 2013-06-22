@@ -12,6 +12,7 @@
 #import "UIView+Shake.h"
 #import "RCUserGuideViewController.h"
 #import "UncaughtExceptionHandler.h"
+#import "MacrosFunc.h"
 
 @interface RCViewController ()
 
@@ -27,6 +28,8 @@
     self.roundImageView.image = [UIImage imageNamed:@"heartocat"];
     
     InstallUncaughtExceptionHandler();
+    
+    NSLog(@"bundle version: %@", APP_VERSION);
 }
 
 - (void)viewDidUnload
