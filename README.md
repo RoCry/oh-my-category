@@ -1,6 +1,11 @@
 - feel free to use, all things wrote by me all rights ```unreserved```
 - some code was copy from others, please notify the LICENSE
 
+### USEAGE
+```
+pod 'oh-my-category', :git => 'https://github.com/RoCry/oh-my-category.git'
+```
+
 ### what can these thing do
 1.convert between lunar date(阴历) and solar date(阳历)
 

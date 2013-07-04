@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C0F41996AB43CEA25E8AC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F9B7F3698D45AB88A3B98D /* libPods.a */; };
 		58A44AF7152FF4D10005616E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A44AF6152FF4D10005616E /* UIKit.framework */; };
 		58A44AF9152FF4D10005616E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A44AF8152FF4D10005616E /* Foundation.framework */; };
 		58A44AFB152FF4D10005616E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A44AFA152FF4D10005616E /* CoreGraphics.framework */; };
@@ -18,37 +19,37 @@
 		58A44B37152FFB2A0005616E /* NSDate+ChineseBirth.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B31152FFB2A0005616E /* NSDate+ChineseBirth.mm */; };
 		58A44B38152FFB2A0005616E /* NSDate+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B32152FFB2A0005616E /* NSDate+RoCry.m */; };
 		58A44B39152FFB2A0005616E /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B35152FFB2A0005616E /* UIView+Shake.m */; };
-		58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */; };
-		58A44B41152FFB370005616E /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3E152FFB370005616E /* SolarDate.cpp */; };
-		58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B3F152FFB370005616E /* ChineseDate.cpp */; };
 		C489DD81170C355F000D7649 /* NSObject+RCRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */; };
+		C4A7969017850CA600EC99AF /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7968F17850CA600EC99AF /* RCImageView.m */; };
+		C4A796A617850CAF00EC99AF /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969217850CAF00EC99AF /* button_back@2x.png */; };
+		C4A796A717850CAF00EC99AF /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969317850CAF00EC99AF /* button_blue@2x.png */; };
+		C4A796A817850CAF00EC99AF /* button_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969417850CAF00EC99AF /* button_red@2x.png */; };
+		C4A796A917850CAF00EC99AF /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969517850CAF00EC99AF /* heartocat.png */; };
+		C4A796AA17850CAF00EC99AF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969617850CAF00EC99AF /* icon.png */; };
+		C4A796AB17850CAF00EC99AF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969717850CAF00EC99AF /* icon@2x.png */; };
+		C4A796AC17850CAF00EC99AF /* shadow_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969817850CAF00EC99AF /* shadow_mask@2x.png */; };
+		C4A796AD17850CAF00EC99AF /* RCUserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7969C17850CAF00EC99AF /* RCUserGuideViewController.m */; };
+		C4A796AE17850CAF00EC99AF /* RCUserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969D17850CAF00EC99AF /* RCUserGuideViewController.xib */; };
+		C4A796AF17850CAF00EC99AF /* text_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969F17850CAF00EC99AF /* text_1.png */; };
+		C4A796B017850CAF00EC99AF /* text_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A017850CAF00EC99AF /* text_2.png */; };
+		C4A796B117850CAF00EC99AF /* text_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A117850CAF00EC99AF /* text_3.png */; };
+		C4A796B217850CAF00EC99AF /* wall_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A217850CAF00EC99AF /* wall_1.png */; };
+		C4A796B317850CAF00EC99AF /* wall_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A317850CAF00EC99AF /* wall_2.png */; };
+		C4A796B417850CAF00EC99AF /* wall_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A417850CAF00EC99AF /* wall_3.png */; };
+		C4A796B517850CAF00EC99AF /* welcome_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A796A517850CAF00EC99AF /* welcome_start@2x.png */; };
+		C4F2B4F61785064400B468B5 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F2B4F01785064400B468B5 /* ChineseCalendarDB.cpp */; };
+		C4F2B4F71785064400B468B5 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F2B4F21785064400B468B5 /* ChineseDate.cpp */; };
+		C4F2B4F81785064400B468B5 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F2B4F41785064400B468B5 /* SolarDate.cpp */; };
+		C4F2B4FB17850B7B00B468B5 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F2B4FA17850B7A00B468B5 /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
 		D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75415AD681100AEEBB1 /* RCFileUtil.m */; };
 		D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FB75715AD68F700AEEBB1 /* RCCoreDataUtil.m */; };
 		D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D1398DE91631343E003F6A5E /* NSURL+RoCry.m */; };
 		D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A0DD11614365600FA0CAC /* UIViewController+Extensions.m */; };
 		D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */; };
-		D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17D836D15EB0F8B00ECECE8 /* RCImageView.m */; };
-		D17D837615EB134D00ECECE8 /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837315EB134D00ECECE8 /* button_back@2x.png */; };
-		D17D837715EB134D00ECECE8 /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837415EB134D00ECECE8 /* button_blue@2x.png */; };
-		D17D837815EB134D00ECECE8 /* button_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837515EB134D00ECECE8 /* button_red@2x.png */; };
-		D17D837A15EB135900ECECE8 /* shadow_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837915EB135900ECECE8 /* shadow_mask@2x.png */; };
-		D17D837D15EB13FC00ECECE8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837B15EB13FC00ECECE8 /* icon.png */; };
-		D17D837E15EB13FC00ECECE8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837C15EB13FC00ECECE8 /* icon@2x.png */; };
-		D17D838015EB157B00ECECE8 /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = D17D837F15EB157B00ECECE8 /* heartocat.png */; };
 		D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D1935CE1169AA64400232062 /* UIColor+Hex.m */; };
 		D1CCCC0E17660BAF002AF972 /* RCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CCCC0D17660BAF002AF972 /* RCUtil.m */; };
 		D1CCCC151766115F002AF972 /* UIView+ACEToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CCCC141766115F002AF972 /* UIView+ACEToolKit.m */; };
-		D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */; };
-		D1FA791F15D8921F0032F8F4 /* RCUserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */; };
-		D1FA792015D8921F0032F8F4 /* text_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791715D8921F0032F8F4 /* text_1.png */; };
-		D1FA792115D8921F0032F8F4 /* text_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791815D8921F0032F8F4 /* text_2.png */; };
-		D1FA792215D8921F0032F8F4 /* text_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791915D8921F0032F8F4 /* text_3.png */; };
-		D1FA792315D8921F0032F8F4 /* wall_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791A15D8921F0032F8F4 /* wall_1.png */; };
-		D1FA792415D8921F0032F8F4 /* wall_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791B15D8921F0032F8F4 /* wall_2.png */; };
-		D1FA792515D8921F0032F8F4 /* wall_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791C15D8921F0032F8F4 /* wall_3.png */; };
-		D1FA792615D8921F0032F8F4 /* welcome_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FA791D15D8921F0032F8F4 /* welcome_start@2x.png */; };
 		D1FA792815D894FC0032F8F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FA792715D894FB0032F8F4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,14 +73,37 @@
 		58A44B34152FFB2A0005616E /* NSDate+ChineseBirth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+ChineseBirth.h"; path = "Category/NSDate+ChineseBirth.h"; sourceTree = "<group>"; };
 		58A44B35152FFB2A0005616E /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Shake.m"; path = "Category/UIView+Shake.m"; sourceTree = "<group>"; };
 		58A44B36152FFB2A0005616E /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Shake.h"; path = "Category/UIView+Shake.h"; sourceTree = "<group>"; };
-		58A44B3A152FFB370005616E /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseCalendarDB.h; path = RelatedClasses/solar_chinese_calendar/ChineseCalendarDB.h; sourceTree = SOURCE_ROOT; };
-		58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseCalendarDB.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseCalendarDB.cpp; sourceTree = SOURCE_ROOT; };
-		58A44B3C152FFB370005616E /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolarDate.h; path = RelatedClasses/solar_chinese_calendar/SolarDate.h; sourceTree = SOURCE_ROOT; };
-		58A44B3D152FFB370005616E /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseDate.h; path = RelatedClasses/solar_chinese_calendar/ChineseDate.h; sourceTree = SOURCE_ROOT; };
-		58A44B3E152FFB370005616E /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SolarDate.cpp; path = RelatedClasses/solar_chinese_calendar/SolarDate.cpp; sourceTree = SOURCE_ROOT; };
-		58A44B3F152FFB370005616E /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChineseDate.cpp; path = RelatedClasses/solar_chinese_calendar/ChineseDate.cpp; sourceTree = SOURCE_ROOT; };
+		75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A0F9B7F3698D45AB88A3B98D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C489DD7F170C355F000D7649 /* NSObject+RCRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RCRuntimeUtil.h"; sourceTree = "<group>"; };
 		C489DD80170C355F000D7649 /* NSObject+RCRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RCRuntimeUtil.m"; sourceTree = "<group>"; };
+		C4A7968E17850CA600EC99AF /* RCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImageView.h; sourceTree = "<group>"; };
+		C4A7968F17850CA600EC99AF /* RCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImageView.m; sourceTree = "<group>"; };
+		C4A7969217850CAF00EC99AF /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
+		C4A7969317850CAF00EC99AF /* button_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_blue@2x.png"; sourceTree = "<group>"; };
+		C4A7969417850CAF00EC99AF /* button_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red@2x.png"; sourceTree = "<group>"; };
+		C4A7969517850CAF00EC99AF /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
+		C4A7969617850CAF00EC99AF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C4A7969717850CAF00EC99AF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C4A7969817850CAF00EC99AF /* shadow_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow_mask@2x.png"; sourceTree = "<group>"; };
+		C4A7969B17850CAF00EC99AF /* RCUserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserGuideViewController.h; sourceTree = "<group>"; };
+		C4A7969C17850CAF00EC99AF /* RCUserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserGuideViewController.m; sourceTree = "<group>"; };
+		C4A7969D17850CAF00EC99AF /* RCUserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCUserGuideViewController.xib; sourceTree = "<group>"; };
+		C4A7969F17850CAF00EC99AF /* text_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_1.png; sourceTree = "<group>"; };
+		C4A796A017850CAF00EC99AF /* text_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_2.png; sourceTree = "<group>"; };
+		C4A796A117850CAF00EC99AF /* text_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_3.png; sourceTree = "<group>"; };
+		C4A796A217850CAF00EC99AF /* wall_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_1.png; sourceTree = "<group>"; };
+		C4A796A317850CAF00EC99AF /* wall_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_2.png; sourceTree = "<group>"; };
+		C4A796A417850CAF00EC99AF /* wall_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_3.png; sourceTree = "<group>"; };
+		C4A796A517850CAF00EC99AF /* welcome_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome_start@2x.png"; sourceTree = "<group>"; };
+		C4F2B4F01785064400B468B5 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		C4F2B4F11785064400B468B5 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		C4F2B4F21785064400B468B5 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		C4F2B4F31785064400B468B5 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		C4F2B4F41785064400B468B5 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		C4F2B4F51785064400B468B5 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
+		C4F2B4F917850B7900B468B5 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		C4F2B4FA17850B7A00B468B5 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 		D10B208015CB789D0033A2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D10FB75315AD681100AEEBB1 /* RCFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFileUtil.h; sourceTree = "<group>"; };
 		D10FB75415AD681100AEEBB1 /* RCFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFileUtil.m; sourceTree = "<group>"; };
@@ -93,33 +117,12 @@
 		D13F76D115B25EBD008595EC /* MacrosFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacrosFunc.h; path = Macros/MacrosFunc.h; sourceTree = "<group>"; };
 		D15664CD159D3FEC00C23F47 /* NSString+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RoCry.h"; path = "Category/NSString+RoCry.h"; sourceTree = "<group>"; };
 		D15664CE159D3FEC00C23F47 /* NSString+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RoCry.m"; path = "Category/NSString+RoCry.m"; sourceTree = "<group>"; };
-		D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
-		D16BA34B15F59B8B0062D74F /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
-		D17D836C15EB0F8B00ECECE8 /* RCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImageView.h; sourceTree = "<group>"; };
-		D17D836D15EB0F8B00ECECE8 /* RCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImageView.m; sourceTree = "<group>"; };
-		D17D837315EB134D00ECECE8 /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
-		D17D837415EB134D00ECECE8 /* button_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_blue@2x.png"; sourceTree = "<group>"; };
-		D17D837515EB134D00ECECE8 /* button_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red@2x.png"; sourceTree = "<group>"; };
-		D17D837915EB135900ECECE8 /* shadow_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow_mask@2x.png"; sourceTree = "<group>"; };
-		D17D837B15EB13FC00ECECE8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		D17D837C15EB13FC00ECECE8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		D17D837F15EB157B00ECECE8 /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
 		D1935CE0169AA64400232062 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Category/UIColor+Hex.h"; sourceTree = "<group>"; };
 		D1935CE1169AA64400232062 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Category/UIColor+Hex.m"; sourceTree = "<group>"; };
 		D1CCCC0C17660BAF002AF972 /* RCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUtil.h; sourceTree = "<group>"; };
 		D1CCCC0D17660BAF002AF972 /* RCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUtil.m; sourceTree = "<group>"; };
 		D1CCCC131766115F002AF972 /* UIView+ACEToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ACEToolKit.h"; sourceTree = "<group>"; };
 		D1CCCC141766115F002AF972 /* UIView+ACEToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ACEToolKit.m"; sourceTree = "<group>"; };
-		D1FA791315D8921F0032F8F4 /* RCUserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserGuideViewController.h; sourceTree = "<group>"; };
-		D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserGuideViewController.m; sourceTree = "<group>"; };
-		D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCUserGuideViewController.xib; sourceTree = "<group>"; };
-		D1FA791715D8921F0032F8F4 /* text_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_1.png; sourceTree = "<group>"; };
-		D1FA791815D8921F0032F8F4 /* text_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_2.png; sourceTree = "<group>"; };
-		D1FA791915D8921F0032F8F4 /* text_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_3.png; sourceTree = "<group>"; };
-		D1FA791A15D8921F0032F8F4 /* wall_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_1.png; sourceTree = "<group>"; };
-		D1FA791B15D8921F0032F8F4 /* wall_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_2.png; sourceTree = "<group>"; };
-		D1FA791C15D8921F0032F8F4 /* wall_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall_3.png; sourceTree = "<group>"; };
-		D1FA791D15D8921F0032F8F4 /* welcome_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome_start@2x.png"; sourceTree = "<group>"; };
 		D1FA792715D894FB0032F8F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -133,6 +136,7 @@
 				58A44AF7152FF4D10005616E /* UIKit.framework in Frameworks */,
 				58A44AF9152FF4D10005616E /* Foundation.framework in Frameworks */,
 				58A44AFB152FF4D10005616E /* CoreGraphics.framework in Frameworks */,
+				49C0F41996AB43CEA25E8AC0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,17 +146,11 @@
 		58A44AE7152FF4D10005616E = {
 			isa = PBXGroup;
 			children = (
-				D16BA34615F599E80062D74F /* Others */,
-				D17D837215EB134D00ECECE8 /* RelatedResources */,
-				D17D836A15EB0F6800ECECE8 /* CustomViews */,
-				D1FA78FC15D890B10032F8F4 /* SomeBaseViewControllers */,
-				D13F76D215B25EC1008595EC /* Macros */,
-				D10FB75115AD67F700AEEBB1 /* Utils */,
-				58A44B21152FF5610005616E /* OtherClassRelated */,
-				58A44B16152FF5410005616E /* Category */,
+				C4F2B4EF178505F200B468B5 /* Classes */,
 				58A44AFC152FF4D10005616E /* Demo */,
 				58A44AF5152FF4D10005616E /* Frameworks */,
 				58A44AF3152FF4D10005616E /* Products */,
+				75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +170,7 @@
 				58A44AF6152FF4D10005616E /* UIKit.framework */,
 				58A44AF8152FF4D10005616E /* Foundation.framework */,
 				58A44AFA152FF4D10005616E /* CoreGraphics.framework */,
+				A0F9B7F3698D45AB88A3B98D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,6 +178,11 @@
 		58A44AFC152FF4D10005616E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C4A7969117850CAF00EC99AF /* RelatedResources */,
+				C4A7969917850CAF00EC99AF /* SomeBaseViewControllers */,
+				C4A7968D17850CA600EC99AF /* CustomViews */,
+				C4F2B4F917850B7900B468B5 /* UncaughtExceptionHandler.h */,
+				C4F2B4FA17850B7A00B468B5 /* UncaughtExceptionHandler.m */,
 				58A44B05152FF4D10005616E /* RCAppDelegate.h */,
 				58A44B06152FF4D10005616E /* RCAppDelegate.m */,
 				58A44B08152FF4D10005616E /* MainStoryboard.storyboard */,
@@ -226,12 +230,12 @@
 		58A44B17152FF55E0005616E /* solar_chinese_calendar */ = {
 			isa = PBXGroup;
 			children = (
-				58A44B3A152FFB370005616E /* ChineseCalendarDB.h */,
-				58A44B3B152FFB370005616E /* ChineseCalendarDB.cpp */,
-				58A44B3C152FFB370005616E /* SolarDate.h */,
-				58A44B3D152FFB370005616E /* ChineseDate.h */,
-				58A44B3E152FFB370005616E /* SolarDate.cpp */,
-				58A44B3F152FFB370005616E /* ChineseDate.cpp */,
+				C4F2B4F01785064400B468B5 /* ChineseCalendarDB.cpp */,
+				C4F2B4F11785064400B468B5 /* ChineseCalendarDB.h */,
+				C4F2B4F21785064400B468B5 /* ChineseDate.cpp */,
+				C4F2B4F31785064400B468B5 /* ChineseDate.h */,
+				C4F2B4F41785064400B468B5 /* SolarDate.cpp */,
+				C4F2B4F51785064400B468B5 /* SolarDate.h */,
 			);
 			path = solar_chinese_calendar;
 			sourceTree = "<group>";
@@ -241,7 +245,75 @@
 			children = (
 				58A44B17152FF55E0005616E /* solar_chinese_calendar */,
 			);
-			name = OtherClassRelated;
+			path = OtherClassRelated;
+			sourceTree = "<group>";
+		};
+		C4A7968D17850CA600EC99AF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7968E17850CA600EC99AF /* RCImageView.h */,
+				C4A7968F17850CA600EC99AF /* RCImageView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C4A7969117850CAF00EC99AF /* RelatedResources */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7969217850CAF00EC99AF /* button_back@2x.png */,
+				C4A7969317850CAF00EC99AF /* button_blue@2x.png */,
+				C4A7969417850CAF00EC99AF /* button_red@2x.png */,
+				C4A7969517850CAF00EC99AF /* heartocat.png */,
+				C4A7969617850CAF00EC99AF /* icon.png */,
+				C4A7969717850CAF00EC99AF /* icon@2x.png */,
+				C4A7969817850CAF00EC99AF /* shadow_mask@2x.png */,
+			);
+			path = RelatedResources;
+			sourceTree = "<group>";
+		};
+		C4A7969917850CAF00EC99AF /* SomeBaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7969A17850CAF00EC99AF /* RCUserGuide */,
+			);
+			path = SomeBaseViewControllers;
+			sourceTree = "<group>";
+		};
+		C4A7969A17850CAF00EC99AF /* RCUserGuide */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7969B17850CAF00EC99AF /* RCUserGuideViewController.h */,
+				C4A7969C17850CAF00EC99AF /* RCUserGuideViewController.m */,
+				C4A7969D17850CAF00EC99AF /* RCUserGuideViewController.xib */,
+				C4A7969E17850CAF00EC99AF /* UserGuideResources */,
+			);
+			path = RCUserGuide;
+			sourceTree = "<group>";
+		};
+		C4A7969E17850CAF00EC99AF /* UserGuideResources */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7969F17850CAF00EC99AF /* text_1.png */,
+				C4A796A017850CAF00EC99AF /* text_2.png */,
+				C4A796A117850CAF00EC99AF /* text_3.png */,
+				C4A796A217850CAF00EC99AF /* wall_1.png */,
+				C4A796A317850CAF00EC99AF /* wall_2.png */,
+				C4A796A417850CAF00EC99AF /* wall_3.png */,
+				C4A796A517850CAF00EC99AF /* welcome_start@2x.png */,
+			);
+			path = UserGuideResources;
+			sourceTree = "<group>";
+		};
+		C4F2B4EF178505F200B468B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D16BA34615F599E80062D74F /* Misc */,
+				D13F76D215B25EC1008595EC /* Macros */,
+				D10FB75115AD67F700AEEBB1 /* Utils */,
+				58A44B21152FF5610005616E /* OtherClassRelated */,
+				58A44B16152FF5410005616E /* Category */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D10FB75115AD67F700AEEBB1 /* Utils */ = {
@@ -268,36 +340,11 @@
 			name = Macros;
 			sourceTree = "<group>";
 		};
-		D16BA34615F599E80062D74F /* Others */ = {
+		D16BA34615F599E80062D74F /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				D16BA34B15F59B8B0062D74F /* UncaughtExceptionHandler.h */,
-				D16BA34915F599FD0062D74F /* UncaughtExceptionHandler.m */,
 			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		D17D836A15EB0F6800ECECE8 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				D17D836C15EB0F8B00ECECE8 /* RCImageView.h */,
-				D17D836D15EB0F8B00ECECE8 /* RCImageView.m */,
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		D17D837215EB134D00ECECE8 /* RelatedResources */ = {
-			isa = PBXGroup;
-			children = (
-				D17D837F15EB157B00ECECE8 /* heartocat.png */,
-				D17D837B15EB13FC00ECECE8 /* icon.png */,
-				D17D837C15EB13FC00ECECE8 /* icon@2x.png */,
-				D17D837915EB135900ECECE8 /* shadow_mask@2x.png */,
-				D17D837315EB134D00ECECE8 /* button_back@2x.png */,
-				D17D837415EB134D00ECECE8 /* button_blue@2x.png */,
-				D17D837515EB134D00ECECE8 /* button_red@2x.png */,
-			);
-			path = RelatedResources;
+			path = Misc;
 			sourceTree = "<group>";
 		};
 		D1CCCC121766115E002AF972 /* CategoriesByOthers */ = {
@@ -310,39 +357,6 @@
 			path = Category/CategoriesByOthers;
 			sourceTree = "<group>";
 		};
-		D1FA78FC15D890B10032F8F4 /* SomeBaseViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D1FA791215D8921F0032F8F4 /* RCUserGuide */,
-			);
-			path = SomeBaseViewControllers;
-			sourceTree = "<group>";
-		};
-		D1FA791215D8921F0032F8F4 /* RCUserGuide */ = {
-			isa = PBXGroup;
-			children = (
-				D1FA791315D8921F0032F8F4 /* RCUserGuideViewController.h */,
-				D1FA791415D8921F0032F8F4 /* RCUserGuideViewController.m */,
-				D1FA791515D8921F0032F8F4 /* RCUserGuideViewController.xib */,
-				D1FA791615D8921F0032F8F4 /* UserGuideResources */,
-			);
-			path = RCUserGuide;
-			sourceTree = "<group>";
-		};
-		D1FA791615D8921F0032F8F4 /* UserGuideResources */ = {
-			isa = PBXGroup;
-			children = (
-				D1FA791715D8921F0032F8F4 /* text_1.png */,
-				D1FA791815D8921F0032F8F4 /* text_2.png */,
-				D1FA791915D8921F0032F8F4 /* text_3.png */,
-				D1FA791A15D8921F0032F8F4 /* wall_1.png */,
-				D1FA791B15D8921F0032F8F4 /* wall_2.png */,
-				D1FA791C15D8921F0032F8F4 /* wall_3.png */,
-				D1FA791D15D8921F0032F8F4 /* welcome_start@2x.png */,
-			);
-			path = UserGuideResources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,10 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58A44B10152FF4D10005616E /* Build configuration list for PBXNativeTarget "oh-my-category" */;
 			buildPhases = (
+				0B211F2E6FAF41898435D672 /* Check Pods Manifest.lock */,
 				58A44AEE152FF4D10005616E /* Sources */,
 				58A44AEF152FF4D10005616E /* Frameworks */,
 				58A44AF0152FF4D10005616E /* Resources */,
 				D19F0ABE177554F500AC79F0 /* ShellScript */,
+				D569F6E3B2B54EC7BE67FC53 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -398,27 +414,41 @@
 			files = (
 				58A44B01152FF4D10005616E /* InfoPlist.strings in Resources */,
 				58A44B0A152FF4D10005616E /* MainStoryboard.storyboard in Resources */,
-				D1FA791F15D8921F0032F8F4 /* RCUserGuideViewController.xib in Resources */,
-				D1FA792015D8921F0032F8F4 /* text_1.png in Resources */,
-				D1FA792115D8921F0032F8F4 /* text_2.png in Resources */,
-				D1FA792215D8921F0032F8F4 /* text_3.png in Resources */,
-				D1FA792315D8921F0032F8F4 /* wall_1.png in Resources */,
-				D1FA792415D8921F0032F8F4 /* wall_2.png in Resources */,
-				D1FA792515D8921F0032F8F4 /* wall_3.png in Resources */,
-				D1FA792615D8921F0032F8F4 /* welcome_start@2x.png in Resources */,
-				D17D837615EB134D00ECECE8 /* button_back@2x.png in Resources */,
-				D17D837715EB134D00ECECE8 /* button_blue@2x.png in Resources */,
-				D17D837815EB134D00ECECE8 /* button_red@2x.png in Resources */,
-				D17D837A15EB135900ECECE8 /* shadow_mask@2x.png in Resources */,
-				D17D837D15EB13FC00ECECE8 /* icon.png in Resources */,
-				D17D837E15EB13FC00ECECE8 /* icon@2x.png in Resources */,
-				D17D838015EB157B00ECECE8 /* heartocat.png in Resources */,
+				C4A796A617850CAF00EC99AF /* button_back@2x.png in Resources */,
+				C4A796A717850CAF00EC99AF /* button_blue@2x.png in Resources */,
+				C4A796A817850CAF00EC99AF /* button_red@2x.png in Resources */,
+				C4A796A917850CAF00EC99AF /* heartocat.png in Resources */,
+				C4A796AA17850CAF00EC99AF /* icon.png in Resources */,
+				C4A796AB17850CAF00EC99AF /* icon@2x.png in Resources */,
+				C4A796AC17850CAF00EC99AF /* shadow_mask@2x.png in Resources */,
+				C4A796AE17850CAF00EC99AF /* RCUserGuideViewController.xib in Resources */,
+				C4A796AF17850CAF00EC99AF /* text_1.png in Resources */,
+				C4A796B017850CAF00EC99AF /* text_2.png in Resources */,
+				C4A796B117850CAF00EC99AF /* text_3.png in Resources */,
+				C4A796B217850CAF00EC99AF /* wall_1.png in Resources */,
+				C4A796B317850CAF00EC99AF /* wall_2.png in Resources */,
+				C4A796B417850CAF00EC99AF /* wall_3.png in Resources */,
+				C4A796B517850CAF00EC99AF /* welcome_start@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B211F2E6FAF41898435D672 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		D19F0ABE177554F500AC79F0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +461,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#from http://imi.im/122\n#Git 版本数\nVERSION_NUMBER=`git rev-list head | sort | wc -l | awk '{print $1}'`\n#VERSION_HASH=`git rev-list head | head -1`\n\necho $VERSION_NUMBER\n#echo $VERSION_HASH\n\n##加入版本号\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${VERSION_NUMBER}\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
+		};
+		D569F6E3B2B54EC7BE67FC53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -445,21 +489,21 @@
 				58A44B37152FFB2A0005616E /* NSDate+ChineseBirth.mm in Sources */,
 				58A44B38152FFB2A0005616E /* NSDate+RoCry.m in Sources */,
 				58A44B39152FFB2A0005616E /* UIView+Shake.m in Sources */,
-				58A44B40152FFB370005616E /* ChineseCalendarDB.cpp in Sources */,
-				58A44B41152FFB370005616E /* SolarDate.cpp in Sources */,
-				58A44B42152FFB370005616E /* ChineseDate.cpp in Sources */,
 				D15664CF159D3FEC00C23F47 /* NSString+RoCry.m in Sources */,
 				D10FB75515AD681100AEEBB1 /* RCFileUtil.m in Sources */,
 				D10FB75815AD68F800AEEBB1 /* RCCoreDataUtil.m in Sources */,
-				D1FA791E15D8921F0032F8F4 /* RCUserGuideViewController.m in Sources */,
-				D17D836E15EB0F8B00ECECE8 /* RCImageView.m in Sources */,
-				D16BA34A15F599FD0062D74F /* UncaughtExceptionHandler.m in Sources */,
 				D13A0DD21614365600FA0CAC /* UIViewController+Extensions.m in Sources */,
 				D1398DEA1631343E003F6A5E /* NSURL+RoCry.m in Sources */,
 				D1935CE2169AA64400232062 /* UIColor+Hex.m in Sources */,
 				C489DD81170C355F000D7649 /* NSObject+RCRuntimeUtil.m in Sources */,
 				D1CCCC0E17660BAF002AF972 /* RCUtil.m in Sources */,
 				D1CCCC151766115F002AF972 /* UIView+ACEToolKit.m in Sources */,
+				C4F2B4F61785064400B468B5 /* ChineseCalendarDB.cpp in Sources */,
+				C4F2B4F71785064400B468B5 /* ChineseDate.cpp in Sources */,
+				C4F2B4F81785064400B468B5 /* SolarDate.cpp in Sources */,
+				C4F2B4FB17850B7B00B468B5 /* UncaughtExceptionHandler.m in Sources */,
+				C4A7969017850CA600EC99AF /* RCImageView.m in Sources */,
+				C4A796AD17850CAF00EC99AF /* RCUserGuideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +576,7 @@
 		};
 		58A44B11152FF4D10005616E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oh-my-category/oh-my-category-Prefix.pch";
@@ -543,6 +588,7 @@
 		};
 		58A44B12152FF4D10005616E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oh-my-category/oh-my-category-Prefix.pch";
