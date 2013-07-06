@@ -23,6 +23,6 @@ void RCSetupLog()
     NSString *name = [NSString stringWithUTF8String:name_chars];
     LoggerSetupBonjour(NULL, NULL, (__bridge CFStringRef)name);
     
-    RCDefaultLog(@"NSLogger setup success");
+    RCLogDefault(@"NSLogger setup success");
 #endif
 }
