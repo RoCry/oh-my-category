@@ -3,7 +3,7 @@
 //  oh-my-category
 //
 //  Created by Summer on 13-4-3.
-//  Copyright (c) 2013年 7782. All rights reserved.
+//  Copyright (c) 2013年 FeN. All rights reserved.
 //
 
 #import "NSObject+RCRuntimeUtil.h"
