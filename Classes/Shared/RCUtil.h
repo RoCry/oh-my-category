@@ -32,7 +32,7 @@ typedef enum RCLoggerLevel : NSUInteger {
     #define LOG_DOMAIN @"com.rocry"
 
     #define RCLog(level, __FORMAT__, ...) \
-            LogMessage(LOG_DOMAIN, RCLoggerLevelDefault, \
+            LogMessage(LOG_DOMAIN, level, \
             (@"%s [L:%d]\n" __FORMAT__), __PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__)
 
     #define RCLogError(__FORMAT__, ...)     RCLog(RCLoggerLevelError,__FORMAT__,##__VA_ARGS__)
