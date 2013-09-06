@@ -16,6 +16,7 @@
 		58A44B07152FF4D10005616E /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B06152FF4D10005616E /* RCAppDelegate.m */; };
 		58A44B0A152FF4D10005616E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A44B08152FF4D10005616E /* MainStoryboard.storyboard */; };
 		58A44B0D152FF4D10005616E /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B0C152FF4D10005616E /* RCViewController.m */; };
+		C40218C017D9BC7400911B31 /* UIColor+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */; };
 		C4A7969017850CA600EC99AF /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7968F17850CA600EC99AF /* RCImageView.m */; };
 		C4A796A617850CAF00EC99AF /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969217850CAF00EC99AF /* button_back@2x.png */; };
 		C4A796A717850CAF00EC99AF /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969317850CAF00EC99AF /* button_blue@2x.png */; };
@@ -73,6 +74,8 @@
 		58A44B0C152FF4D10005616E /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
 		75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A0F9B7F3698D45AB88A3B98D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40218BE17D9BC7300911B31 /* UIColor+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RoCry.h"; sourceTree = "<group>"; };
+		C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RoCry.m"; sourceTree = "<group>"; };
 		C4A7968E17850CA600EC99AF /* RCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImageView.h; sourceTree = "<group>"; };
 		C4A7968F17850CA600EC99AF /* RCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImageView.m; sourceTree = "<group>"; };
 		C4A7969217850CAF00EC99AF /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
@@ -303,6 +306,8 @@
 				C4E2AC65178FE2DF00E30EA2 /* NSURL+RoCry.m */,
 				C4E2AC66178FE2DF00E30EA2 /* UIColor+Hex.h */,
 				C4E2AC67178FE2DF00E30EA2 /* UIColor+Hex.m */,
+				C40218BE17D9BC7300911B31 /* UIColor+RoCry.h */,
+				C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */,
 				C4E2AC68178FE2DF00E30EA2 /* UIView+Shake.h */,
 				C4E2AC69178FE2DF00E30EA2 /* UIView+Shake.m */,
 				C4E2AC6A178FE2DF00E30EA2 /* UIViewController+Extensions.h */,
@@ -551,6 +556,7 @@
 				C4E2AC97178FE2DF00E30EA2 /* RCDeviceUtil.m in Sources */,
 				C4E2AC98178FE2DF00E30EA2 /* RCFileUtil.m in Sources */,
 				C4E2AC99178FE2DF00E30EA2 /* RCUtil.m in Sources */,
+				C40218C017D9BC7400911B31 /* UIColor+RoCry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
