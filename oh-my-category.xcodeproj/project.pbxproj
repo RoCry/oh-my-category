@@ -508,7 +508,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#from http://imi.im/122\n#Git 版本数\nVERSION_NUMBER=`git rev-list head | sort | wc -l | awk '{print $1}'`\n#VERSION_HASH=`git rev-list head | head -1`\n\necho $VERSION_NUMBER\n#echo $VERSION_HASH\n\n##加入版本号\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${VERSION_NUMBER}\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
+			shellScript = "#from http://imi.im/122\n#Git 版本数\nVERSION_NUMBER=`git rev-list head | sort | wc -l | awk '{print $1}'`\n#VERSION_HASH=`git rev-list head | head -1`\n#from http://puttin.github.io/blog/2013/08/21/automating-your-build-numbers-with-xcode-and-git/\n#versionnum = `git describe | awk '{split($0,a,\"-\"); print a[1]}'`\n\necho $VERSION_NUMBER\n#echo $VERSION_HASH\n\n##加入版本号\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${VERSION_NUMBER}\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
 		};
 		D569F6E3B2B54EC7BE67FC53 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
