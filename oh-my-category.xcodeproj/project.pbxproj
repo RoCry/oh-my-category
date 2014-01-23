@@ -16,7 +16,6 @@
 		58A44B07152FF4D10005616E /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B06152FF4D10005616E /* RCAppDelegate.m */; };
 		58A44B0A152FF4D10005616E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A44B08152FF4D10005616E /* MainStoryboard.storyboard */; };
 		58A44B0D152FF4D10005616E /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A44B0C152FF4D10005616E /* RCViewController.m */; };
-		C40218C017D9BC7400911B31 /* UIColor+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */; };
 		C4A7969017850CA600EC99AF /* RCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7968F17850CA600EC99AF /* RCImageView.m */; };
 		C4A796A617850CAF00EC99AF /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969217850CAF00EC99AF /* button_back@2x.png */; };
 		C4A796A717850CAF00EC99AF /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A7969317850CAF00EC99AF /* button_blue@2x.png */; };
@@ -41,13 +40,9 @@
 		C4E2AC8B178FE2DF00E30EA2 /* NSMutableDictionary+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC61178FE2DF00E30EA2 /* NSMutableDictionary+RoCry.m */; };
 		C4E2AC8C178FE2DF00E30EA2 /* NSString+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC63178FE2DF00E30EA2 /* NSString+RoCry.m */; };
 		C4E2AC8D178FE2DF00E30EA2 /* NSURL+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC65178FE2DF00E30EA2 /* NSURL+RoCry.m */; };
-		C4E2AC8E178FE2DF00E30EA2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC67178FE2DF00E30EA2 /* UIColor+Hex.m */; };
 		C4E2AC8F178FE2DF00E30EA2 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC69178FE2DF00E30EA2 /* UIView+Shake.m */; };
 		C4E2AC90178FE2DF00E30EA2 /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC6B178FE2DF00E30EA2 /* UIViewController+Extensions.m */; };
 		C4E2AC91178FE2DF00E30EA2 /* UIViewController+RoCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC6D178FE2DF00E30EA2 /* UIViewController+RoCry.m */; };
-		C4E2AC92178FE2DF00E30EA2 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC74178FE2DF00E30EA2 /* ChineseCalendarDB.cpp */; };
-		C4E2AC93178FE2DF00E30EA2 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC76178FE2DF00E30EA2 /* ChineseDate.cpp */; };
-		C4E2AC94178FE2DF00E30EA2 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC78178FE2DF00E30EA2 /* SolarDate.cpp */; };
 		C4E2AC95178FE2DF00E30EA2 /* NSObject+RCRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC7C178FE2DF00E30EA2 /* NSObject+RCRuntimeUtil.m */; };
 		C4E2AC96178FE2DF00E30EA2 /* RCCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC7E178FE2DF00E30EA2 /* RCCoreDataUtil.m */; };
 		C4E2AC97178FE2DF00E30EA2 /* RCDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC80178FE2DF00E30EA2 /* RCDeviceUtil.m */; };
@@ -55,6 +50,10 @@
 		C4E2AC99178FE2DF00E30EA2 /* RCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2AC86178FE2DF00E30EA2 /* RCUtil.m */; };
 		C4F2B4FB17850B7B00B468B5 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F2B4FA17850B7A00B468B5 /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D10B208115CB789D0033A2DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B208015CB789D0033A2DA /* CoreData.framework */; };
+		D1E090BF18909ADC00DCF424 /* RCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E090BE18909ADC00DCF424 /* RCCategory.m */; };
+		D1E090C818909C2300DCF424 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E090C218909C2300DCF424 /* ChineseCalendarDB.cpp */; };
+		D1E090C918909C2300DCF424 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E090C418909C2300DCF424 /* ChineseDate.cpp */; };
+		D1E090CA18909C2300DCF424 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E090C618909C2300DCF424 /* SolarDate.cpp */; };
 		D1FA792815D894FC0032F8F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FA792715D894FB0032F8F4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,8 +73,6 @@
 		58A44B0C152FF4D10005616E /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
 		75F15898C3CD461B9DA3A0A2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A0F9B7F3698D45AB88A3B98D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40218BE17D9BC7300911B31 /* UIColor+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RoCry.h"; sourceTree = "<group>"; };
-		C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RoCry.m"; sourceTree = "<group>"; };
 		C4A7968E17850CA600EC99AF /* RCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImageView.h; sourceTree = "<group>"; };
 		C4A7968F17850CA600EC99AF /* RCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImageView.m; sourceTree = "<group>"; };
 		C4A7969217850CAF00EC99AF /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
@@ -109,8 +106,6 @@
 		C4E2AC63178FE2DF00E30EA2 /* NSString+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RoCry.m"; sourceTree = "<group>"; };
 		C4E2AC64178FE2DF00E30EA2 /* NSURL+RoCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RoCry.h"; sourceTree = "<group>"; };
 		C4E2AC65178FE2DF00E30EA2 /* NSURL+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RoCry.m"; sourceTree = "<group>"; };
-		C4E2AC66178FE2DF00E30EA2 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		C4E2AC67178FE2DF00E30EA2 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		C4E2AC68178FE2DF00E30EA2 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
 		C4E2AC69178FE2DF00E30EA2 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
 		C4E2AC6A178FE2DF00E30EA2 /* UIViewController+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extensions.h"; sourceTree = "<group>"; };
@@ -119,12 +114,6 @@
 		C4E2AC6D178FE2DF00E30EA2 /* UIViewController+RoCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RoCry.m"; sourceTree = "<group>"; };
 		C4E2AC6F178FE2DF00E30EA2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C4E2AC70178FE2DF00E30EA2 /* MacrosFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacrosFunc.h; sourceTree = "<group>"; };
-		C4E2AC74178FE2DF00E30EA2 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
-		C4E2AC75178FE2DF00E30EA2 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
-		C4E2AC76178FE2DF00E30EA2 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
-		C4E2AC77178FE2DF00E30EA2 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
-		C4E2AC78178FE2DF00E30EA2 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
-		C4E2AC79178FE2DF00E30EA2 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
 		C4E2AC7B178FE2DF00E30EA2 /* NSObject+RCRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RCRuntimeUtil.h"; sourceTree = "<group>"; };
 		C4E2AC7C178FE2DF00E30EA2 /* NSObject+RCRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RCRuntimeUtil.m"; sourceTree = "<group>"; };
 		C4E2AC7D178FE2DF00E30EA2 /* RCCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCoreDataUtil.h; sourceTree = "<group>"; };
@@ -138,6 +127,14 @@
 		C4F2B4F917850B7900B468B5 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		C4F2B4FA17850B7A00B468B5 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 		D10B208015CB789D0033A2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1E090BD18909ADC00DCF424 /* RCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCategory.h; sourceTree = "<group>"; };
+		D1E090BE18909ADC00DCF424 /* RCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCategory.m; sourceTree = "<group>"; };
+		D1E090C218909C2300DCF424 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		D1E090C318909C2300DCF424 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		D1E090C418909C2300DCF424 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		D1E090C518909C2300DCF424 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		D1E090C618909C2300DCF424 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		D1E090C718909C2300DCF424 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
 		D1FA792715D894FB0032F8F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -279,10 +276,10 @@
 		C4E2AC55178FE2DF00E30EA2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D1E090C018909C2300DCF424 /* Vendors */,
 				C4E2AC56178FE2DF00E30EA2 /* Category */,
 				C4E2AC6E178FE2DF00E30EA2 /* Macros */,
 				C4E2AC71178FE2DF00E30EA2 /* Misc */,
-				C4E2AC72178FE2DF00E30EA2 /* OtherClassRelated */,
 				C4E2AC7A178FE2DF00E30EA2 /* Utils */,
 			);
 			path = iOS;
@@ -304,16 +301,14 @@
 				C4E2AC63178FE2DF00E30EA2 /* NSString+RoCry.m */,
 				C4E2AC64178FE2DF00E30EA2 /* NSURL+RoCry.h */,
 				C4E2AC65178FE2DF00E30EA2 /* NSURL+RoCry.m */,
-				C4E2AC66178FE2DF00E30EA2 /* UIColor+Hex.h */,
-				C4E2AC67178FE2DF00E30EA2 /* UIColor+Hex.m */,
-				C40218BE17D9BC7300911B31 /* UIColor+RoCry.h */,
-				C40218BF17D9BC7300911B31 /* UIColor+RoCry.m */,
 				C4E2AC68178FE2DF00E30EA2 /* UIView+Shake.h */,
 				C4E2AC69178FE2DF00E30EA2 /* UIView+Shake.m */,
 				C4E2AC6A178FE2DF00E30EA2 /* UIViewController+Extensions.h */,
 				C4E2AC6B178FE2DF00E30EA2 /* UIViewController+Extensions.m */,
 				C4E2AC6C178FE2DF00E30EA2 /* UIViewController+RoCry.h */,
 				C4E2AC6D178FE2DF00E30EA2 /* UIViewController+RoCry.m */,
+				D1E090BD18909ADC00DCF424 /* RCCategory.h */,
+				D1E090BE18909ADC00DCF424 /* RCCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -341,27 +336,6 @@
 			children = (
 			);
 			path = Misc;
-			sourceTree = "<group>";
-		};
-		C4E2AC72178FE2DF00E30EA2 /* OtherClassRelated */ = {
-			isa = PBXGroup;
-			children = (
-				C4E2AC73178FE2DF00E30EA2 /* solar_chinese_calendar */,
-			);
-			path = OtherClassRelated;
-			sourceTree = "<group>";
-		};
-		C4E2AC73178FE2DF00E30EA2 /* solar_chinese_calendar */ = {
-			isa = PBXGroup;
-			children = (
-				C4E2AC74178FE2DF00E30EA2 /* ChineseCalendarDB.cpp */,
-				C4E2AC75178FE2DF00E30EA2 /* ChineseCalendarDB.h */,
-				C4E2AC76178FE2DF00E30EA2 /* ChineseDate.cpp */,
-				C4E2AC77178FE2DF00E30EA2 /* ChineseDate.h */,
-				C4E2AC78178FE2DF00E30EA2 /* SolarDate.cpp */,
-				C4E2AC79178FE2DF00E30EA2 /* SolarDate.h */,
-			);
-			path = solar_chinese_calendar;
 			sourceTree = "<group>";
 		};
 		C4E2AC7A178FE2DF00E30EA2 /* Utils */ = {
@@ -405,6 +379,27 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		D1E090C018909C2300DCF424 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				D1E090C118909C2300DCF424 /* solar_chinese_calendar */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		D1E090C118909C2300DCF424 /* solar_chinese_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D1E090C218909C2300DCF424 /* ChineseCalendarDB.cpp */,
+				D1E090C318909C2300DCF424 /* ChineseCalendarDB.h */,
+				D1E090C418909C2300DCF424 /* ChineseDate.cpp */,
+				D1E090C518909C2300DCF424 /* ChineseDate.h */,
+				D1E090C618909C2300DCF424 /* SolarDate.cpp */,
+				D1E090C718909C2300DCF424 /* SolarDate.h */,
+			);
+			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -436,7 +431,7 @@
 			attributes = {
 				CLASSPREFIX = RC;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = 7782;
+				ORGANIZATIONNAME = FeN;
 			};
 			buildConfigurationList = 58A44AEC152FF4D10005616E /* Build configuration list for PBXProject "oh-my-category" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -532,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A44B03152FF4D10005616E /* main.m in Sources */,
+				D1E090BF18909ADC00DCF424 /* RCCategory.m in Sources */,
 				58A44B07152FF4D10005616E /* RCAppDelegate.m in Sources */,
 				58A44B0D152FF4D10005616E /* RCViewController.m in Sources */,
 				C4F2B4FB17850B7B00B468B5 /* UncaughtExceptionHandler.m in Sources */,
@@ -543,20 +539,18 @@
 				C4E2AC8A178FE2DF00E30EA2 /* NSMutableArray+RoCry.m in Sources */,
 				C4E2AC8B178FE2DF00E30EA2 /* NSMutableDictionary+RoCry.m in Sources */,
 				C4E2AC8C178FE2DF00E30EA2 /* NSString+RoCry.m in Sources */,
+				D1E090C918909C2300DCF424 /* ChineseDate.cpp in Sources */,
+				D1E090C818909C2300DCF424 /* ChineseCalendarDB.cpp in Sources */,
 				C4E2AC8D178FE2DF00E30EA2 /* NSURL+RoCry.m in Sources */,
-				C4E2AC8E178FE2DF00E30EA2 /* UIColor+Hex.m in Sources */,
 				C4E2AC8F178FE2DF00E30EA2 /* UIView+Shake.m in Sources */,
 				C4E2AC90178FE2DF00E30EA2 /* UIViewController+Extensions.m in Sources */,
+				D1E090CA18909C2300DCF424 /* SolarDate.cpp in Sources */,
 				C4E2AC91178FE2DF00E30EA2 /* UIViewController+RoCry.m in Sources */,
-				C4E2AC92178FE2DF00E30EA2 /* ChineseCalendarDB.cpp in Sources */,
-				C4E2AC93178FE2DF00E30EA2 /* ChineseDate.cpp in Sources */,
-				C4E2AC94178FE2DF00E30EA2 /* SolarDate.cpp in Sources */,
 				C4E2AC95178FE2DF00E30EA2 /* NSObject+RCRuntimeUtil.m in Sources */,
 				C4E2AC96178FE2DF00E30EA2 /* RCCoreDataUtil.m in Sources */,
 				C4E2AC97178FE2DF00E30EA2 /* RCDeviceUtil.m in Sources */,
 				C4E2AC98178FE2DF00E30EA2 /* RCFileUtil.m in Sources */,
 				C4E2AC99178FE2DF00E30EA2 /* RCUtil.m in Sources */,
-				C40218C017D9BC7400911B31 /* UIColor+RoCry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
