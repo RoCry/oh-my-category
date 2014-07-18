@@ -13,7 +13,7 @@ NSString * NSStringFromBOOL(BOOL yesOrNo)
     return yesOrNo ? @"YES" : @"NO";
 }
 
-void RCSetupLog()
+void RCLogSetup()
 {
 #ifdef DEBUG
     char *name_chars = getenv("BONJOUR_NAME");
@@ -23,6 +23,6 @@ void RCSetupLog()
     NSString *name = [NSString stringWithUTF8String:name_chars];
     LoggerSetupBonjour(NULL, NULL, (__bridge CFStringRef)name);
     
-    RCLogDefault(@"NSLogger setup success");
+    RCLogDefault(@"NSLogger[%s] setup success", name_chars);
 #endif
 }

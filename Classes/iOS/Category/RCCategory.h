@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 FeN. All rights reserved.
 //
 
+// some short category here
 @interface UIColor (RoCry)
 
 + (UIColor *)randomColor;

@@ -12,7 +12,7 @@ extern NSString * NSStringFromBOOL(BOOL yesOrNo);
 // Log
 //================================================================================
 
-extern void RCSetupLog();
+extern void RCLogSetup();
 
 typedef enum RCLoggerLevel : NSUInteger {
     RCLoggerLevelError = 0,

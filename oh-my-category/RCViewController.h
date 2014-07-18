@@ -9,11 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RCViewController : UIViewController<UIActionSheetDelegate>
-@property (weak, nonatomic) IBOutlet UIImageView *roundImageView;
-
-- (IBAction)testChineseBirth:(id)sender;
-- (IBAction)testShake:(id)sender;
-- (IBAction)showUserGuide:(id)sender;
-- (IBAction)crashBtnPressed:(id)sender;
 
 @end
